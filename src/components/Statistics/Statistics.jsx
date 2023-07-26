@@ -30,7 +30,7 @@ const Statistics = ({
           </p>
         </li>
       </ul>
-      <div>
+      <div className={css.total}>
         <p className={css.itemText}>
           Total:
           <span className={css.itemValue}>{total}</span>

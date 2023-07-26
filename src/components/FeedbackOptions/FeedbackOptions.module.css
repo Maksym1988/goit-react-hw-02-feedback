@@ -1,0 +1,27 @@
+.list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  min-width: 100px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: azure;
+
+  transition: background-color 250ms;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: gold;
+}
